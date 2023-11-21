@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dns_log_viewer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="buttonss">
+
+        <div class="choo">
+            <label for="fileUpload">Choose File</label>
+            <input type="file" id="fileUpload" accept=".txt, .pdf, .doc">
+        </div>
+
+
+        <div class="upload">
+            <input type="file" id="fileUpload" accept=".txt, .pdf, .doc">
+            <button onclick="readFile()">Read File</button>
+        </div>
+    </div>
+
+    <div id="outputText"></div>
+
+
+    <script src="./scirpt.js"></script>
+</body>
+</html>
